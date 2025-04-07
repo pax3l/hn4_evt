@@ -1,5 +1,5 @@
 {
-  "editionTitle": "Les divinités des Métamorphoses d'Ovide",
+  "editionTitle": "Les divinités dans les Métamorphoses d'Ovide",
   "badge": "Apollon et Pallas",
   "editionHome": "evt.labcd.unipi.it/",
   "availableEditionLevels": [
@@ -24,8 +24,8 @@
     {
       "id": "changesView",
       "label": "changes",
-      "enable": false,
-      "hidden": true
+      "enable": true,
+      "hidden": false
     }
   ],
   "downloadableXMLSource": true,
