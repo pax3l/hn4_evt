@@ -1,0 +1,195 @@
+{
+  "editionTitle": "Les divinités des Métamorphoses d'Ovide",
+  "badge": "Apollon et Pallas",
+  "editionHome": "evt.labcd.unipi.it/",
+  "availableEditionLevels": [
+    {
+      "id": "diplomatic",
+      "label": "diplomatic",
+      "enable": true,
+      "hidden": false
+    },
+    {
+      "id": "interpretative",
+      "label": "interpretative",
+      "enable": true,
+      "hidden": false
+    },
+    {
+      "id": "critical",
+      "label": "critical",
+      "enable": false,
+      "hidden": true
+    },
+    {
+      "id": "changesView",
+      "label": "changes",
+      "enable": false,
+      "hidden": true
+    }
+  ],
+  "downloadableXMLSource": true,
+  "namedEntitiesLists": {
+    "deities": {
+      "defaultLabel": "Divinités",
+      "enable": true
+    },
+    "places": {
+      "defaultLabel": "Places",
+      "enable": false
+    },
+    "organizations": {
+      "defaultLabel": "Organizations",
+      "enable": false
+    },
+    "relations": {
+      "defaultLabel": "Relations",
+      "enable": true
+    },
+    "events": {
+      "defaultLabel": "Events",
+      "enable": true
+    }
+  },
+  "showLists": true,
+  "entitiesSelectItems": [
+    {
+      "label": "Entités nommées",
+      "items": [
+        {
+          "value": "persName",
+          "label": "Divinités",
+          "color": "#ff4aff",
+          "enable": true
+        },
+        {
+          "value": "persName[ana='act']",
+          "label": "Acteur de métamorphose",
+          "color": "#6698ed",
+          "enable": true
+        },
+        {
+          "value": "persName[ana='auto']",
+          "label": "Acteur de sa propre métamorphose",
+          "color": "#f7a760",
+          "enable": true
+        },
+        {
+          "value": "persName[ana='obj']",
+          "label": "Objet de métamorphose",
+          "color": "#f7a760",
+          "enable": true
+        },
+        {
+          "value": "persName[ana='NA']",
+          "label": "Pas de lien avec une métamorphose ici",
+          "color": "#995079m",
+          "enable": true
+        },
+        {
+          "value": "placeName,geogName",
+          "label": "places",
+          "color": "#A5D6A7",
+          "enable": false
+        },
+        {
+          "value": "orgName",
+          "label": "organizations",
+          "color": "#FFB74D",
+          "enable": false
+        }
+      ],
+      "enable": true
+    },
+    {
+      "label": "Other",
+      "items": [
+        {
+          "value": "event",
+          "label": "events",
+          "color": "#fcfc60",
+          "enable": true
+        },
+        {
+          "value": "rolename",
+          "label": "roles",
+          "enable": true
+        },
+        {
+          "value": "measure",
+          "label": "measures",
+          "enable": true
+        }
+      ],
+      "enable": false
+    }
+  ],
+  "notSignificantVariants": [
+    "type=orthographic"
+  ],
+  "defaultEdition": "diplomatic",
+  "defaultViewMode": "interpretative",
+  "proseVersesToggler": true,
+  "defaultTextFlow": "verses",
+  "verseNumberPrinter": 5,
+  "readingColorLight": "rgb(208, 220, 255)",
+  "readingColorDark": "rgb(101, 138, 255)",
+  "externalBibliography": {
+    "biblAttributeToMatch": "xml:id",
+    "elementAttributesToMatch": [
+      "target",
+      "source"
+    ]
+  },
+  "biblView": {
+    "propsToShow": [
+      "author",
+      "title",
+      "date",
+      "editor",
+      "publisher",
+      "pubPlace",
+      "citedRange",
+      "biblScope"
+    ],
+    "showAttrNames": false,
+    "showEmptyValues": false,
+    "inline": true,
+    "commaSeparated": true,
+    "showMainElemTextContent": true,
+    "changeSequenceView": {
+      "showVarSeqAttr": false,
+      "showSeqAttr": false,
+      "layerColors": []
+    },
+    "defaultImageZoomLevel": 0.8
+  },
+  "analogueMarkers": [
+    "ParallelPassage",
+    "parallelPassage",
+    "Parallel",
+    "parallel"
+  ],
+  "sourcesExcludedFromListByParent": [
+    "desc"
+  ],
+  "showSubstitutionMarker": true,
+  "showSeparatorBetweenChanges": true,
+  "startingFromDefinitiveLayer": true,
+  "showChangeLayerMarkerInText": true,
+  "changeSequenceView": {
+    "showVarSeqAttr": false,
+    "showSeqAttr": false,
+    "layerColors": {
+      "strato-0": "#71e5fa",
+      "strato-1": "#609cf4",
+      "strato-2": "#0d6efd",
+      "strato-3": "#7B66FF",
+      "strato-4": "#3e22f3",
+      "strato-5": "#100077"
+    }
+  },
+  "defaultImageZoomLevel": 0.8,
+  "maxImageZoomLevel": 2,
+  "multiPageEngineForCriticalEdition": false
+}
